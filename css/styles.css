@@ -1,5 +1,13 @@
 .main-page {
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
 }
 .header-container {
@@ -151,6 +159,16 @@ h6 {
 .future-item {
   width: calc((100% - 3 * 24px) / 4);
 }
+.future-item-border {
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -188,6 +206,12 @@ h6 {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+}
+.item-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
 .our-port-name {
   font-weight: 700;
@@ -271,7 +295,20 @@ h6 {
   color: #2e2f42;
   padding: 24px 0px;
   display: block;
+  position: relative;
 }
+.nav-link:active::after {
+  content: "";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .nav-link:hover {
   color: #404bbf;
 }
