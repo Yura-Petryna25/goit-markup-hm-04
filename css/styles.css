@@ -253,6 +253,29 @@ h6 {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.our-port-text {
+  position: absolute;
+  top: 0;
+  background-color: #4d5ae5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  padding-bottom: 164px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list:hover .our-port-text {
+  transform: translate(0);
+}
+.our-cover-wrap {
+  position: relative;
+  overflow: hidden;
+}
 .name-h-three {
   font-weight: 500;
   font-size: 20px;
