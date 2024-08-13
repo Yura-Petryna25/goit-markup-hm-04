@@ -313,7 +313,6 @@ h6 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-right: 120px;
 }
 .foot-logo {
   font-weight: 700;
@@ -332,6 +331,10 @@ h6 {
   color: #fff;
   margin-bottom: 16px;
   display: flex;
+}
+.foter-page {
+  margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-social-ul {
