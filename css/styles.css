@@ -303,7 +303,7 @@ h6 {
   display: block;
   position: relative;
 }
-.nav-link.studio:active::after {
+.nav-link::after {
   content: "";
   border-radius: 2px;
   width: 48px;
