@@ -359,7 +359,9 @@ h6 {
   margin-right: 120px;
   align-items: baseline;
 }
-
+.social-footer {
+  align-items: baseline;
+}
 .footer-social-ul {
   gap: 16px;
   display: flex;
