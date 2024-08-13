@@ -310,6 +310,7 @@ h6 {
 }
 .portfolio-list {
   width: calc((100% - 24 * 2) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-box {
@@ -363,9 +364,9 @@ h6 {
 }
 .foter-page {
   margin-right: 120px;
+  align-items: baseline;
 }
 .social-footer {
-  align-items: baseline;
 }
 .footer-social-ul {
   gap: 16px;
