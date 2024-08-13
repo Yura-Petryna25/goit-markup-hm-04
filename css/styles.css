@@ -294,8 +294,6 @@ h6 {
 }
 .foote .container {
   display: flex;
-  align-items: baseline;
-  margin-right: 120px;
 }
 .foote-logo {
   font-weight: 700;
@@ -315,8 +313,6 @@ h6 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 .foot-logo {
@@ -337,9 +333,7 @@ h6 {
   margin-bottom: 16px;
   display: flex;
 }
-.social-footer {
-  display: flex;
-}
+
 .footer-social-ul {
   gap: 16px;
   display: flex;
